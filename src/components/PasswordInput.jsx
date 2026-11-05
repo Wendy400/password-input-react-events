@@ -1,9 +1,15 @@
-// Code PasswordInput Component Here
+function PasswordInput() {
+    function handlePasswordChange() {
+        console.log('Entering password...');
+    }
 
-function PasswordInput (){
-    return(
-        <></>
-    )
+    return (
+        <input
+            type="password"
+            placeholder="Enter password"
+            onChange={handlePasswordChange}
+        />
+    );
 }
 
 export default PasswordInput;

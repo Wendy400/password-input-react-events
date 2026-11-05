@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div>
-      <PasswordInput/>
+      <PasswordInput />
       <SubmitButton/>
     </div>
   )
